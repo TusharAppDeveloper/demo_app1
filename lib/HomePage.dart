@@ -12,7 +12,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [Container()],
+        children: [Container(
+
+          color: Colors.green,
+        )],
       ),
     );
   }
